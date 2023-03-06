@@ -1,36 +1,208 @@
+
+/* ================COMPONENTS================= */
 .list {
     list-style: none;
 }
+
 .link {
     text-decoration: none;
+}
+.logo {
+    font-family: Raleway, sans-serif;
+    font-style: 800;
+    font-size: 18px;
+    line-height: 1,167;
+    vertical-align: center;
+    letter-spacing: 3%;
+    color: #4d5ae5;
+    fill: solid;
+    fill-color-style: Iris;
+
+}
+.logo-half {
+    font-family: Raleway, sans-serif;
+    font-style: 800;
+    font-size: 18px;
+    line-height: 1,167;
+    vertical-align: center;
+    letter-spacing: 3%;
+    fill: solid;
+}
+/* ================/COMPONENTS================= */
+
+/* ====================HEADER===================== */
+.logo-dark {
+    color: #2E2F42;
 }
 .menu-item {
     font-family: Roboto, sans-serif;
     font-style: medium;
     font-size: 16px;
     line-height: 1,5;
-    align: left;
     vertical-align: top;
     letter-spacing: 2%;
     fill: solid;
     color:#2E2F42;
 }
-.menu-item:hover,
-.menu-item:focus {
+.menu-link:hover,
+.menu-link:focus {
     color: #404bbf;
+}
+
+.contact-email {
+    font-family: Roboto, sans-serif;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 1, 5;
+        vertical-align: top;
+        letter-spacing: 2%;
+        fill: solid;
+        color: #434455
 }
 .contact-phone {
     font-family: Roboto, sans-serif;
-    font-style: regular;
+    font-style: normal;
     font-size: 16px;
     line-height: 1,5;
-    align: left;
     vertical-align: top;  
     letter-spacing: 2%;
     fill: solid;
     color: #434455  
 }
-.contact-phone:hover,
-.contact-phone:focus {
+.contact-email:hover,
+.contact-email:focus {
     color:#404bbf;
 }
+/* ====================/HEADER===================== */
+
+/* ====================SECTION 1===================== */
+.hero {
+    background-color: #2E2F42;
+}
+.modal-btn {
+    font-family: Roboto,    sans-serif;
+        font-style: medium;
+        font-size: 16px;
+        line-height: 1,5;
+        vertical-align: center;
+        letter-spacing: 4%;
+        fill: solid;
+        color: #ffffff;
+        background-color: #4d5ae5;
+}
+.modal-btn:hover,
+.modal-btn:focus {
+    background-color: #404bbf;
+}
+.main-title {
+    font-family: Roboto, sans-serif;
+    font-style: bold;
+    font-size: 56px;
+    line-height: 1,07;
+    vertical-align: top;
+    letter-spacing: 2%;
+    color: #ffffff;
+}
+/* ====================/SECTION 1===================== */
+
+/* ==========================SECTION 2=============== */
+.visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+}
+
+.features {
+    font-family: Roboto, sans-serif;
+    font-style: medium;
+    font-size: 20px;
+    line-height: 1,2;
+    vertical-align: top;
+    letter-spacing: 2%;
+    color: #2E2F42;
+}
+.feature-description {
+    font-family: Roboto, sans-serif;
+    font-style: regular;
+    font-size: 16px;
+    line-height: 1,5;
+    vertical-align: top;
+    letter-spacing: 2%;
+    color: #434455;
+}
+/* =========================/SECTION 2================ */
+/* =========================SECTION 3=================== */
+.section-three {
+    background-color: #ffffff;
+}
+.subtitle {
+    font-family: Roboto, sans-serif;
+    font-style: bold;
+    font-size: 36px;
+    line-height: 1,11;
+    vertical-align: top;
+    letter-spacing: 2%;
+    color: #2E2F42;
+}
+/* =========================/SECTION 3=================== */
+/* ====================SECTION 4====================== */
+.section-four {
+    background-color: #F4F4FD;
+}
+.team-list-item {
+    background-color: #ffffff;
+}
+.team-name {
+    font-family: Roboto, sans-serif;
+    font-style: medium;
+    font-size: 20px;
+    line-height: 1,2;
+    vertical-align: top;
+    letter-spacing: 2%;
+    color: #2E2F42;
+}
+.position {
+    font-family: Roboto, sans-serif;
+    font-style: regular;
+    font-size: 16px;
+    line-height: 1,5;
+    vertical-align: top;
+    letter-spacing: 2%;
+    color: #434455;
+
+}
+/* ================/SECTION 4====================== */
+/* =======================FOOTER==================== */
+.footer {
+    background-color: #2E2F42;
+}
+.logo-light {
+    color: #F4F4FD;
+}
+.logo-description {
+    font-family: Roboto, sans-serif;
+    font-style: regular;
+    font-size: 16px;
+    line-height: 1, 5;
+    vertical-align: top;
+    letter-spacing: 2%;
+    color: #e7e9fc;
+}
+.logo-half {
+    font-family: Raleway, sans-serif;
+    font-style: 800;
+    font-size: 18px;
+    line-height: 1, 167;
+    vertical-align: middle;
+    letter-spacing: 3%;
+    fill: solid;
+}
+
+/* =======================/FOOTER==================== */
