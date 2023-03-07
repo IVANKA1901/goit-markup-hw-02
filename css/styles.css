@@ -1,5 +1,10 @@
+:root {
+    --primary-font: Roboto, sans-serif;
+    --secondary-font: Raleway, sans-serif;
+    --primary-text-color:#2E2F42;
+    --secondary-text-color:#434455;
 
-/* ================COMPONENTS================= */
+}
 .list {
     list-style: none;
 }
@@ -7,8 +12,16 @@
 .link {
     text-decoration: none;
 }
+body {
+    font-family: Roboto, sans-serif;
+
+}
+/* ====================COMPONENTS================= */
+.page-header {
+    background-color:#ffffff
+}
 .logo {
-    font-family: Raleway, sans-serif;
+    font-family:var(--secondary-font);
     font-style: 800;
     font-size: 18px;
     line-height: 1,167;
@@ -16,11 +29,19 @@
     letter-spacing: 3%;
     color: #4d5ae5;
     fill: solid;
-    fill-color-style: Iris;
-
 }
+
+.subtitle {
+    font-style: bold;
+    font-size: 36px;
+    line-height: 1, 11;
+    vertical-align: top;
+    letter-spacing: 2%;
+    color: var(--primary-text-color);
+}
+
 .logo-half {
-    font-family: Raleway, sans-serif;
+    font-family: var(--secondary-font);
     font-style: 800;
     font-size: 18px;
     line-height: 1,167;
@@ -28,21 +49,57 @@
     letter-spacing: 3%;
     fill: solid;
 }
+.logo-light {
+    color: #F4F4FD;
+}
+.logo-dark {
+    color: var(--primary-text-color);
+}
+
+.logo-description {
+    font-style: regular;
+    font-size: 16px;
+    line-height: 1, 5;
+    vertical-align: top;
+    letter-spacing: 2%;
+    color: #e7e9fc;
+}
+.card-name {
+        font-style: medium;
+        font-size: 20px;
+        line-height: 1, 2;
+        vertical-align: top;
+        letter-spacing: 2%;
+        color: var(--primary-text-color);
+}
+.function-description {
+    font-style: regular;
+    font-size: 16px;
+    line-height: 1, 5;
+    vertical-align: top;
+    letter-spacing: 2%;
+    color: var(--secondary-text-color);
+}
+.desc {
+    font-style: regular;
+    font-size: 16px;
+    line-height: 1, 5;
+    vertical-align: top;
+    letter-spacing: 2%;
+    color: var(--secondary-text-color);
+
+}
 /* ================/COMPONENTS================= */
 
 /* ====================HEADER===================== */
-.logo-dark {
-    color: #2E2F42;
-}
 .menu-item {
-    font-family: Roboto, sans-serif;
     font-style: medium;
     font-size: 16px;
     line-height: 1,5;
     vertical-align: top;
     letter-spacing: 2%;
     fill: solid;
-    color:#2E2F42;
+    color: var(--primary-text-color);
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -50,24 +107,22 @@
 }
 
 .contact-email {
-    font-family: Roboto, sans-serif;
         font-style: normal;
         font-size: 16px;
         line-height: 1, 5;
         vertical-align: top;
         letter-spacing: 2%;
         fill: solid;
-        color: #434455
+        color: var(--secondary-text-color);
 }
 .contact-phone {
-    font-family: Roboto, sans-serif;
     font-style: normal;
     font-size: 16px;
     line-height: 1,5;
     vertical-align: top;  
     letter-spacing: 2%;
     fill: solid;
-    color: #434455  
+    color: var(--secondary-text-color);
 }
 .contact-email:hover,
 .contact-email:focus {
@@ -80,7 +135,7 @@
     background-color: #2E2F42;
 }
 .modal-btn {
-    font-family: Roboto,    sans-serif;
+        font-family: inherit;
         font-style: medium;
         font-size: 16px;
         line-height: 1,5;
@@ -95,7 +150,6 @@
     background-color: #404bbf;
 }
 .main-title {
-    font-family: Roboto, sans-serif;
     font-style: bold;
     font-size: 56px;
     line-height: 1,07;
@@ -120,38 +174,30 @@
 }
 
 .features {
-    font-family: Roboto, sans-serif;
     font-style: medium;
     font-size: 20px;
     line-height: 1,2;
     vertical-align: top;
     letter-spacing: 2%;
-    color: #2E2F42;
+    color: var(--primary-text-color);
 }
 .feature-description {
-    font-family: Roboto, sans-serif;
     font-style: regular;
     font-size: 16px;
     line-height: 1,5;
     vertical-align: top;
     letter-spacing: 2%;
-    color: #434455;
+    color: var(--secondary-text-color);
 }
 /* =========================/SECTION 2================ */
+
 /* =========================SECTION 3=================== */
 .section-three {
     background-color: #ffffff;
 }
-.subtitle {
-    font-family: Roboto, sans-serif;
-    font-style: bold;
-    font-size: 36px;
-    line-height: 1,11;
-    vertical-align: top;
-    letter-spacing: 2%;
-    color: #2E2F42;
-}
+
 /* =========================/SECTION 3=================== */
+
 /* ====================SECTION 4====================== */
 .section-four {
     background-color: #F4F4FD;
@@ -159,50 +205,35 @@
 .team-list-item {
     background-color: #ffffff;
 }
-.team-name {
-    font-family: Roboto, sans-serif;
-    font-style: medium;
-    font-size: 20px;
-    line-height: 1,2;
-    vertical-align: top;
-    letter-spacing: 2%;
-    color: #2E2F42;
-}
-.position {
-    font-family: Roboto, sans-serif;
-    font-style: regular;
-    font-size: 16px;
-    line-height: 1,5;
-    vertical-align: top;
-    letter-spacing: 2%;
-    color: #434455;
-
-}
 /* ================/SECTION 4====================== */
+
 /* =======================FOOTER==================== */
 .footer {
-    background-color: #2E2F42;
-}
-.logo-light {
-    color: #F4F4FD;
-}
-.logo-description {
-    font-family: Roboto, sans-serif;
-    font-style: regular;
-    font-size: 16px;
-    line-height: 1, 5;
-    vertical-align: top;
-    letter-spacing: 2%;
-    color: #e7e9fc;
-}
-.logo-half {
-    font-family: Raleway, sans-serif;
-    font-style: 800;
-    font-size: 18px;
-    line-height: 1, 167;
-    vertical-align: middle;
-    letter-spacing: 3%;
-    fill: solid;
+    background-color: var(--primary-text-color);
 }
 
 /* =======================/FOOTER==================== */
+
+
+/* ========================PORTFOLIO======================================  */
+
+
+/* ======================SECTION 1=============================*/
+.buttons {
+   font-family: inherit; 
+    font-style: 500;
+    font-size: 16px;
+    line-height: 1,5;
+    vertical-align: center;
+    letter-spacing: 4%;
+    background-color: #E7E9FC;
+    color: #4D5AE5;
+    cursor: pointer;
+}
+.buttons:hover,
+.buttons:focus {
+ background-color: #404BBF;
+ color: #ffffff;
+}
+/* ======================/SECTION 1======================== */
+/* ==================================/PORTFOLIO========================= */
