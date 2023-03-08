@@ -99,7 +99,7 @@ body {
 
 /* ====================SECTION 1===================== */
 .hero {
-    background-color: #2E2F42;
+    background-color: var(--primary-text-color);
 }
 
 
@@ -109,7 +109,7 @@ body {
     line-height: 1.5;
     display: flex;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
+    color: var(--third-text-color);
     background-color: var(--accent-color);
 }
 .modal-btn:hover,
