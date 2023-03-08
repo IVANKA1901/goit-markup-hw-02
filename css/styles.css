@@ -13,8 +13,14 @@
     text-decoration: none;
 }
 body {
-    font-family: Roboto, sans-serif;
+    font-family: var(--primary-font);
+    font-size: 16px;
+    background-color: #ffffff;
 
+
+}
+.adress {
+    font-style: normal;
 }
 /* ====================COMPONENTS================= */
 .page-header {
@@ -22,32 +28,29 @@ body {
 }
 .logo {
     font-family:var(--secondary-font);
-    font-style: 800;
+    font-weight: 800;
     font-size: 18px;
-    line-height: 1,167;
-    vertical-align: center;
-    letter-spacing: 3%;
-    color: #4d5ae5;
-    fill: solid;
+    line-height: 1.17;
+    letter-spacing: 0,03em;
+    color: #4D5AE5;
 }
 
 .subtitle {
-    font-style: bold;
+    font-weight: 700;
     font-size: 36px;
-    line-height: 1, 11;
-    vertical-align: top;
-    letter-spacing: 2%;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
     color: var(--primary-text-color);
 }
 
 .logo-half {
     font-family: var(--secondary-font);
-    font-style: 800;
+    font-weight: 800;
     font-size: 18px;
-    line-height: 1,167;
-    vertical-align: center;
-    letter-spacing: 3%;
-    fill: solid;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
 }
 .logo-light {
     color: #F4F4FD;
@@ -57,48 +60,34 @@ body {
 }
 
 .logo-description {
-    font-style: regular;
-    font-size: 16px;
-    line-height: 1, 5;
-    vertical-align: top;
-    letter-spacing: 2%;
-    color: #e7e9fc;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #E7E9FC;
 }
 .card-name {
-        font-style: medium;
-        font-size: 20px;
-        line-height: 1, 2;
-        vertical-align: top;
-        letter-spacing: 2%;
-        color: var(--primary-text-color);
-}
-.function-description {
-    font-style: regular;
-    font-size: 16px;
-    line-height: 1, 5;
-    vertical-align: top;
-    letter-spacing: 2%;
-    color: var(--secondary-text-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
 }
 .desc {
-    font-style: regular;
-    font-size: 16px;
-    line-height: 1, 5;
-    vertical-align: top;
-    letter-spacing: 2%;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--secondary-text-color);
-
 }
+        
+
+
 /* ================/COMPONENTS================= */
 
 /* ====================HEADER===================== */
-.menu-item {
-    font-style: medium;
-    font-size: 16px;
-    line-height: 1,5;
-    vertical-align: top;
-    letter-spacing: 2%;
-    fill: solid;
+.menu-link {
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--primary-text-color);
 }
 .menu-link:hover,
@@ -107,21 +96,15 @@ body {
 }
 
 .contact-email {
-        font-style: normal;
-        font-size: 16px;
-        line-height: 1, 5;
-        vertical-align: top;
-        letter-spacing: 2%;
-        fill: solid;
-        color: var(--secondary-text-color);
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em; 
+    color: var(--secondary-text-color);
 }
 .contact-phone {
-    font-style: normal;
-    font-size: 16px;
-    line-height: 1,5;
-    vertical-align: top;  
-    letter-spacing: 2%;
-    fill: solid;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--secondary-text-color);
 }
 .contact-email:hover,
@@ -134,59 +117,56 @@ body {
 .hero {
     background-color: #2E2F42;
 }
+
+
 .modal-btn {
-        font-family: inherit;
-        font-style: medium;
-        font-size: 16px;
-        line-height: 1,5;
-        vertical-align: center;
-        letter-spacing: 4%;
-        fill: solid;
-        color: #ffffff;
-        background-color: #4d5ae5;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.5;
+    display: flex;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background-color: #4d5ae5;
 }
 .modal-btn:hover,
 .modal-btn:focus {
     background-color: #404bbf;
 }
 .main-title {
-    font-style: bold;
+    font-weight: 700;
     font-size: 56px;
-    line-height: 1,07;
-    vertical-align: top;
-    letter-spacing: 2%;
-    color: #ffffff;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
 }
+
 /* ====================/SECTION 1===================== */
 
 /* ==========================SECTION 2=============== */
 .visually-hidden {
-        position: absolute;
-        width: 1px;
-        height: 1px;
-        margin: -1px;
-        border: 0;
-        padding: 0;
-        white-space: nowrap;
-        clip-path: inset(100%);
-        clip: rect(0 0 0 0);
-        overflow: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .features {
-    font-style: medium;
+    font-weight: 500;
     font-size: 20px;
-    line-height: 1,2;
-    vertical-align: top;
-    letter-spacing: 2%;
+    line-height: 24px;
+    letter-spacing: 0.02em;
     color: var(--primary-text-color);
 }
 .feature-description {
-    font-style: regular;
-    font-size: 16px;
-    line-height: 1,5;
-    vertical-align: top;
-    letter-spacing: 2%;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.02em;
     color: var(--secondary-text-color);
 }
 /* =========================/SECTION 2================ */
@@ -203,9 +183,10 @@ body {
     background-color: #F4F4FD;
 }
 .team-list-item {
-    background-color: #ffffff;
+    background-color: #FFFFFF;
 }
-/* ================/SECTION 4====================== */
+/* ==============
+==/SECTION 4====================== */
 
 /* =======================FOOTER==================== */
 .footer {
@@ -220,20 +201,22 @@ body {
 
 /* ======================SECTION 1=============================*/
 .buttons {
-   font-family: inherit; 
-    font-style: 500;
-    font-size: 16px;
-    line-height: 1,5;
-    vertical-align: center;
-    letter-spacing: 4%;
-    background-color: #E7E9FC;
-    color: #4D5AE5;
-    cursor: pointer;
+font-weight: 500;
+line-height: 1.5;
+display: flex; 
+letter-spacing: 0.04em;
+color: #4D5AE5; 
+background-color: #F4F4FD;
+border: 1px solid #E7E9FC;
+border-radius: 4px;
 }
 .buttons:hover,
 .buttons:focus {
- background-color: #404BBF;
- color: #ffffff;
+    color:#ffffff;
+    background-color: #404bbf;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
 }
+
 /* ======================/SECTION 1======================== */
 /* ==================================/PORTFOLIO========================= */
