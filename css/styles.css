@@ -37,7 +37,6 @@ body {
 }
 
 .section-title {
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -140,13 +139,13 @@ body {
 }
 
 .feature-title {
+    font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
 }
 .feature-description {
-    font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
